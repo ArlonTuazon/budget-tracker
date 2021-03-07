@@ -18,7 +18,7 @@ This is a PWA budget tracker that allows user to access their budget transaction
 
 ### Screenshot
 
-### ![](budgettrackerimage.png)
+##### ![](budgettrackerimage.png)
 
 ### Deployed app
 
