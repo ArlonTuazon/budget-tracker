@@ -6,11 +6,11 @@ This is a PWA budget tracker that allows user to access their budget transaction
 
 ### Installation
 
-npm install or
-npm install express
-npm install mongoose
-npm install compresssion
-npm morgan
+*  npm install or
+*  npm install express
+*  npm install mongoose
+*  npm install compresssion
+*  npm morgan
 
 ### Usage
 
@@ -20,5 +20,5 @@ npm morgan
 
 ### Github URL
 
-`https://github.com/ArlonTuazon/budget-tracker`
+https://github.com/ArlonTuazon/budget-tracker
 
