@@ -44,7 +44,7 @@ function saveRecord(record) {
     const transaction = db.transaction(['new_transaction'], 'readwrite');
   
     // access your object store
-    const pizzaObjectStore = transaction.objectStore('new_transaction');
+    const budgettrackObjectStore = transaction.objectStore('new_transaction');
   
     // get all records from store and set to a variable
     const getAll = budgettrackObjectStore.getAll();

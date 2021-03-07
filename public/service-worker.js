@@ -4,9 +4,9 @@ const CACHE_NAME = APP_PREFIX + VERSION
 
 const FILES_TO_CACHE = [
   "./index.html",
-  "./css/style.css",
-  ".js/index.js",
-  ".js/idb.js",
+  "./css/styles.css",
+  "./js/index.js",
+  "./js/idb.js",
   "./manifest.json",
   "./icons/icon-72x72.png",
   "./icons/icon-96x96.png",
@@ -24,7 +24,8 @@ self.addEventListener('install', function (e) {
         console.log('installing cache : ' + CACHE_NAME)
         return cache.addAll(FILES_TO_CACHE)
       })
-    )
+    );
+    self.skipWaiting();
   });
 
 
