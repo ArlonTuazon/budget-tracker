@@ -12,4 +12,13 @@ npm install mongoose
 npm install compresssion
 npm morgan
 
-### 
+### Usage
+
+`npm start`
+
+### Deployed app
+
+### Github URL
+
+`https://github.com/ArlonTuazon/budget-tracker`
+
